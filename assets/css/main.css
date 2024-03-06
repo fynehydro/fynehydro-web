@@ -247,15 +247,16 @@ section {
 --------------------------------------------------------------*/
 .header {
   z-index: 997;
-  position: absolute;
-  padding: 30px 0;
+  position: fixed;
+  padding: 15px 0;
   top: 0;
   left: 0;
   right: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 .header .logo img {
-  max-height: 60px;
+  max-height: 50px;
   margin-right: 6px;
 }
 
@@ -305,7 +306,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
     text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
@@ -343,7 +344,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #f37900;
   }
 
   .navbar .dropdown ul {
@@ -493,7 +494,7 @@ section {
 
   .mobile-nav-show {
     position: relative;
-    color: #fff;
+    color: #f37900;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -1881,7 +1882,9 @@ section {
 .hero .info h2 {
   color: #fff;
   margin-bottom: 30px;
+  margin-top: 30px;
   padding-bottom: 30px;
+  padding-top: 30px;
   font-size: 56px;
   font-weight: 700;
   position: relative;
